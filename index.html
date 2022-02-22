@@ -7,12 +7,12 @@
   </head>
   <body style="text-align: center">
     <canvas id="unity-canvas" width=960 height=600 style="width: 960px; height: 600px; background: #231F20"></canvas>
-    <script src="Build/Test.loader.js"></script>
+    <script src="Build/Unity_WebGL_build.loader.js"></script>
     <script>
       createUnityInstance(document.querySelector("#unity-canvas"), {
-        dataUrl: "Build/Test.data",
-        frameworkUrl: "Build/Test.framework.js",
-        codeUrl: "Build/Test.wasm",
+        dataUrl: "Build/Unity_WebGL_build.data",
+        frameworkUrl: "Build/Unity_WebGL_build.framework.js",
+        codeUrl: "Build/Unity_WebGL_build.wasm",
         streamingAssetsUrl: "StreamingAssets",
         companyName: "DefaultCompany",
         productName: "Apparel 360",
